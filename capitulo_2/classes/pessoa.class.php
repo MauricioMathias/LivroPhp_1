@@ -1,0 +1,58 @@
+<?php
+
+class Pessoa
+{
+	var $Codigo;
+	var $Nome;
+	var $Altura;
+	var $Idade;
+	var $Nascimento;
+	var $Escolaridade;
+	var $Salario;
+
+	// Método Crescer: Aumenta a altura em $centimetros
+	function Crescer($centimetros)
+	{
+		if($centimetros>0)
+		{
+			$this->Altura += $centimetros;
+		}
+	}
+
+	// Método Formar: Altera a Escolaridade pela $titulacao
+	function Formar($titulacao)
+	{
+		$this->Escolaridade = $titulacao;
+	}
+
+	// Método Envelhecer: Aumenta a Idade em $anos
+	function Envelhecer($anos)
+	{
+		if($anos>0)
+		{
+			$this->Idade += $anos;
+		}
+	}
+
+	// Método Construtor: Inicializa propriedades
+	function __construct($Codigo, $Nome, $Altura, $Idade, $Nascimento, $Escolaridade, $Salario)
+	{
+		$this->Codigo = $Codigo;
+		$this->Nome = $Nome;
+		$this->Altura = $Altura;
+		$this->Idade = $Idade;
+		$this->Nascimento = $Nascimento;
+		$this->Escolaridade = $Escolaridade;
+		$this->Salario = $Salario;
+	}
+
+	// Método Destrutor: Finaliza o Objeto
+	function __destruct()
+	{
+		echo "Objeto ". $this->Nome . " finalizado...<br/>";
+	}
+}
+
+
+
+?>
