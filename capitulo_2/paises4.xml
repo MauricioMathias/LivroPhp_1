@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pais>
+	<nome> Brasil </nome>
+	<idioma> português </idioma>
+	<religiao> católica </religiao>
+	<moeda> Real (R$) </moeda>
+	<populacao> 190 Milha </populacao>
+	<geografia>
+		<clima>tropical </clima>
+		<costa> 7367 Km </costa>
+		<pico> Nevado (3014 m)</pico>
+	</geografia>
+	<estados>
+		<estado nome="Rio de Janeiro" capital="Rio de Janeiro"/>
+		<estado nome="Santa Catarina" capital="Florianópolis"/>
+		<estado nome="Paraná" capital="Curitiba"/>
+		<estado nome="São Paulo" capital="São Paulo"/>
+		<estado nome="Bahia" capital="Salvador"/>
+		<estado nome="Espirito Santo" capital="Vitória"/>
+	</estados>
+</pais>

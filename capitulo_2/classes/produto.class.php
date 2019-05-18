@@ -17,7 +17,7 @@ class Produto
 		$this->Preco = $Preco;
 	}
 
-	// intercepta a obtenção de propriedades
+/*	// intercepta a obtenção de propriedades
 	function __get($propriedade)
 	{
 		echo "Obtendo o valor de '$propriedade': <br/>";
@@ -31,6 +31,16 @@ class Produto
 	{
 		print 'Código: ' . $this->Codigo . '<br/>';
 		print 'Descrição: ' . $this->Descricao . '<br/>';
+	}*/
+
+	// intercepta a chamada à métodos
+	function __call($metodo, $parametros)
+	{
+		echo "Você executou o método: {$metodo}<br/>";
+		foreach ($parametros as $key => $parametro) 
+		{
+			echo "Parâmetro $key: $parametro <br/>";
+		}
 	}
 }
 

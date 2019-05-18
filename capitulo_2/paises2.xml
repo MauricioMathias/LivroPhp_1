@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pais>
+	<nome> China </nome>
+	<idioma> Mandarim </idioma>
+	<capital> Hong kong </capital>
+	<religiao>Hinduismo</religiao>
+	<moeda> desconhecida </moeda>
+	<populacao>220 milha</populacao>
+	<geografia>
+		<clima>temperado</clima>
+		<costa> Muito grande </costa>
+		<pico> Não sei </pico>
+	</geografia>
+<presidente>Mestre dos magos</presidente></pais>
